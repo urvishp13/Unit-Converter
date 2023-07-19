@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 45.5625rem;
+    width: 35.375rem;
+    background: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, p {
+    margin: 0;
+}
+
+header {
+    height: 17.8125rem;
+    background: #6943FF;
+}
+
+.conversions-section {
+   
+}
+
+.border-black {
+    border: 1px solid black;
+}

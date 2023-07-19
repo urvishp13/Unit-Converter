@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Unit Converter</title>
 </head>
 
@@ -13,21 +17,27 @@
         <button id="convert-btn">Convert</button>
     </header>
 
-    <section class="conversions">
-        <p>Length (Meter/Feet)</p>
-        <p class="conversion length">
-            <span class="imperial"></span> | <span class="metric"></span>
-        </p>
+    <section class="conversions-section">
+        <div class="length">
+            <p>Length (Meter/Feet)</p>
+            <p class="conversion">
+                <span class="imperial"></span> | <span class="metric"></span>
+            </p>
+        </div>
 
-        <p>Volume (Liters/Gallons)</p>
-        <p class="conversion volume">
-            <span class="imperial"></span> | <span class="metric"></span>
-        </p>
+        <div class="volume">
+            <p>Volume (Liters/Gallons)</p>
+            <p class="conversion">
+                <span class="imperial"></span> | <span class="metric"></span>
+            </p>
+        </div>
 
-        <p>Mass (Kilograms/Pounds)</p>
-        <p class="conversion mass">
-            <span class="imperial"></span> | <span class="metric"></span>
-        </p>
+        <div class="mass">
+            <p>Mass (Kilograms/Pounds)</p>
+            <p class="conversion">
+                <span class="imperial"></span> | <span class="metric"></span>
+            </p>
+        </div>
     </section>
 </body>
 
