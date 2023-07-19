@@ -10,35 +10,37 @@
 </head>
 
 <body>
-    <header>
-        <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text" id="amount-input">
-        <br>
-        <button id="convert-btn">Convert</button>
-    </header>
+    <main>
+        <header>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="amount-input">
+            <br>
+            <button id="convert-btn">Convert</button>
+        </header>
 
-    <section class="conversions-section">
-        <div class="length">
-            <p>Length (Meter/Feet)</p>
-            <p class="conversion">
-                <span class="imperial"></span> | <span class="metric"></span>
-            </p>
-        </div>
+        <section class="conversions-section">
+            <div class="conversion top">
+                <p class="unit">Length (Meter/Feet)</p>
+                <p class="length">
+                    <span class="imperial"></span> | <span class="metric"></span>
+                </p>
+            </div>
 
-        <div class="volume">
-            <p>Volume (Liters/Gallons)</p>
-            <p class="conversion">
-                <span class="imperial"></span> | <span class="metric"></span>
-            </p>
-        </div>
+            <div class="conversion middle">
+                <p class="unit">Volume (Liters/Gallons)</p>
+                <p class="volume">
+                    <span class="imperial"></span> | <span class="metric"></span>
+                </p>
+            </div>
 
-        <div class="mass">
-            <p>Mass (Kilograms/Pounds)</p>
-            <p class="conversion">
-                <span class="imperial"></span> | <span class="metric"></span>
-            </p>
-        </div>
-    </section>
+            <div class="conversion bottom">
+                <p class="unit">Mass (Kilograms/Pounds)</p>
+                <p class="mass">
+                    <span class="imperial"></span> | <span class="metric"></span>
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

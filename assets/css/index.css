@@ -4,10 +4,15 @@
 
 body {
     margin: 0;
+    background: #1C1C1C;
+}
+
+main {
     height: 45.5625rem;
     width: 35.375rem;
     background: #F4F4F4;
     font-family: 'Inter', sans-serif;
+    margin: 0 auto;
 }
 
 h1, p {
@@ -17,10 +22,58 @@ h1, p {
 header {
     height: 17.8125rem;
     background: #6943FF;
+    padding: 2.12rem 3.16rem;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.375rem;
+    letter-spacing: -0.0525rem;
+}
+
+input[type="text"] {
+    
 }
 
 .conversions-section {
-   
+    padding: 2.21rem 1.56rem;
+}
+
+.conversion {
+    width: 31.25rem;
+    height: 6.78581rem;
+    border-radius: 0.29256rem 0rem 0rem 0rem;
+    background: #FFF;
+    margin: 1.46rem auto;
+    border-radius: 0.29256rem 0rem 0rem 0rem;
+    text-align: center;
+    padding: 1.94rem 4.81rem 1.16rem;
+}
+
+.conversion.top {
+    margin-top: 0;
+}
+
+.conversion.bottom {
+    margin-bottom: 0;
+}
+
+.unit {
+    color: #5A537B;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.length,
+.volume,
+.mass {
+    margin-top: 0.3rem;
 }
 
 .border-black {
