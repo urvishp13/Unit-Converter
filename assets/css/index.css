@@ -73,7 +73,12 @@ input[type="text"] {
 .length,
 .volume,
 .mass {
-    margin-top: 0.3rem;
+    margin-top: 0.56rem;
+    color: #353535;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
 }
 
 .border-black {
