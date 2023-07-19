@@ -5,7 +5,9 @@ const input = document.getElementById("amount-input")
 
 // add a click event to btn
     // run convert while passing in number from the input field
-convertBtn.addEventListener("click", convert(input.value))
+convertBtn.addEventListener("click", function() {
+    convert(input.value)
+})
 
 // convert(amount):
 function convert(amount) {
@@ -45,8 +47,6 @@ function imperial(amount) {
     const ftTOm = 1/3.281
     const galTOl = 1/0.264
     const lbTOkg = 1/2.204
-
-    console.log(ftTOm)
 
     // take amount and convert and write to DOM in:
         // meters --> ft
